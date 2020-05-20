@@ -13,9 +13,10 @@
             @endif
             <hr>
             @for($i = 0; $i < 5; $i++)
-            <p>{{ $i + 1 }}. Itteration</p>
+            <p>{{ $i + 1 }}. Iteration</p>
             @endfor
         </div>
     </div>
 
-@endsection 
+@endsection
+

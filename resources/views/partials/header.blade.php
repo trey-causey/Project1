@@ -5,8 +5,9 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About</a></li>
-            </ul> 
+            </ul>
         </div>
     </div>
 
 </nav>
+
