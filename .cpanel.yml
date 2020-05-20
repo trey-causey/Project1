@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYVIEWSPATH=/home/sitejsvh/laravel1.sitesystemhub.com/resources/views
+    - export DEPLOYVIEWSPATH=/home/sitejsvh/laravel1.sitesystemhub.com/resources/
     - /bin/cp -r resources/views $DEPLOYVIEWSPATH
     - export DEPLOYROUTESPATH=/home/sitejsvh/laravel1.sitesystemhub.com/routes/
     - /bin/cp routes/web.php $DEPLOYROUTESPATH
