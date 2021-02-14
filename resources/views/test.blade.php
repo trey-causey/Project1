@@ -14,6 +14,7 @@
             <hr>
             @for($i = 0; $i < 5; $i++)
             <p>{{ $i + 1 }}. Iteration</p>
+                <div>This is an update test</div>
             @endfor
         </div>
     </div>
