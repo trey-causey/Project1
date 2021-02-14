@@ -17,6 +17,7 @@
                 <div>This is an update test</div>
             @endfor
         </div>
+        <div><h2>This is just for staging branch</h2></div>
     </div>
 
 @endsection
