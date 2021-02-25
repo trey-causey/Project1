@@ -1,0 +1,7 @@
+name: laraveltest-lando
+recipe: laravel
+config:
+  php: '7.4'
+  webroot: public
+  via: nginx
+  xdebug: true
