@@ -18,6 +18,15 @@ Route::get('/', function () {
 
 //Route::get('/', function () {
 //    return view('test');
-
-
 });
+
+
+Route::get('test/index', [
+    'uses' => 'TestController@showTestPage',
+    'as' => 'test.index'
+    ]);
+
+Route::get('example/index', [
+    'uses' => 'ExampleController@showIndexPage',
+    'as' => 'example.index'
+    ]);
